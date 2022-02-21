@@ -33,6 +33,7 @@ main {
   .content {
     overflow-y: auto;
   }
+
   .card-container {
     align-items: center;
   }
