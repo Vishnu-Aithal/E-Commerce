@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://some-ui-components.netlify.app/export.css"
+    />
+    <link rel="stylesheet" href="../stylesheets/sign-in.css" />
+
+    <title>Sign In</title>
+  </head>
+  <body>
+    <nav class="nav-bar bg-primary shadow-sm">
+      <div class="nav-bar__header heading-md text-bold clr-white me-2">
+        <a class="nav-bar__link" href="/index.html">Store</a>
+      </div>
+      <div class="nav-bar__search-wrapper ms-auto br-4 shadow-xs">
+        <input
+          class="nav-bar__search-input p-2 br-3"
+          type="search"
+          placeholder="Search"
+        />
+        <div class="nav-bar__search-btn btn btn--icon">
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+      <button
+        class="nav-bar__toggle btn btn--icon-lg clr-white br-2 ms-2"
+        data-toggle="#nav-links"
+      >
+        <i class="nav-bar__toggle-icon fas fa-bars"></i>
+      </button>
+      <ul class="ms-auto nav-bar__list-group clr-white" id="nav-links">
+        <li class="nav-bar__list-item mx-3">
+          <a href="/pages/wishlist.html" class="nav-bar__link"
+            ><i class="far fa-heart"></i
+          ></a>
+        </li>
+        <li class="nav-bar__list-item mx-3">
+          <a href="/pages/cart.html" class="nav-bar__link"
+            ><i class="fas fa-shopping-cart"></i
+          ></a>
+        </li>
+        <li class="nav-bar__list-item mx-3">
+          <a
+            href="/pages/sign-in.html"
+            class="nav-bar__link nav-bar__link--active"
+            >Sign In</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="content">
+      <form action class="p-4 w-fit mx-auto br-2 mt-6">
+        <h2 class="heading-md text-center mb-4">Sign In</h2>
+        <div class="input">
+          <input
+            class="input__field"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Email"
+            required
+          />
+          <label class="input__float-label" for="email">Email</label>
+          <span class="input__required-text"></span>
+        </div>
+
+        <div class="input">
+          <input
+            class="input__field"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter Password"
+            minlength="8"
+            required
+          />
+          <label class="input__float-label" for="password">Password</label>
+          <span class="input__required-text"></span>
+        </div>
+
+        <a class="d-inline-block text-end text-sm w-100p" href=""
+          >Forgot password?</a
+        >
+
+        <div class="input ms-1">
+          <input type="checkbox" class="" name="tandc" id="" required />
+          <label class="text-sm" for="">Remember Me</label>
+        </div>
+        <button class="btn btn--primary br-1 mt-2 w-100p" type="submit">
+          Sign In
+        </button>
+
+        <p class="helper-text mt-3">
+          Not a member? <a href="/pages/sign-up.html">Sign Up</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>

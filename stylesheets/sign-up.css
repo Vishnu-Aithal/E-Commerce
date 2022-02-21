@@ -1,0 +1,11 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input__field {
+  width: 20rem;
+  margin: 0.5rem 0;
+  max-width: 70vw;
+}
