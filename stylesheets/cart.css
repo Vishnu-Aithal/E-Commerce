@@ -50,6 +50,7 @@ main {
   .content {
     overflow-y: auto;
   }
+
   .card-container {
     grid-column: 1/7;
     grid-row: 3/7;
@@ -58,6 +59,7 @@ main {
     border-top: solid 2px var(--color-secondary-light);
     justify-content: center;
   }
+
   .cart-info {
     width: 90%;
     margin: auto;
