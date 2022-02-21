@@ -39,10 +39,12 @@ main {
   padding: 1.5rem;
   border-right: 2px solid var(--color-secondary-light);
 }
+
 .filter__header {
   display: flex;
   align-items: center;
 }
+
 .filter__clear {
   text-decoration: underline;
   text-underline-offset: 2px;
@@ -95,9 +97,9 @@ main {
     width: 100%;
   }
 
-  .filter__category > h4,
-  .filter__rating > h4,
-  .filter__sort > h4 {
+  .filter__category>h4,
+  .filter__rating>h4,
+  .filter__sort>h4 {
     min-width: 20%;
     font-size: 150%;
   }
