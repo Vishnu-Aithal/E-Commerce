@@ -32,4 +32,4 @@ E-commerce site under construction
 
 > ## Live Link:
 
-- https://vishnu-quiz.netlify.app/
+- https://vishnu-store.netlify.app/
